@@ -1,0 +1,40 @@
+@page "/Pagina"
+@rendermode InteractiveServer
+
+<div class="title">
+
+    <h3 class="btn btn-primary">Nome: Pagina</h3>
+
+    @if(Mostrar) {
+        <h3 style="color:@cor">@Texto</h3>
+        @if(MostrarBotao){
+            <button style="background-color:#ffffff">Botão</button>
+        }
+    }
+  @* paulo ricardo *@ 
+</div>
+
+<style>
+
+.title {
+    background-color: blue;
+    font-size: 20px;
+}
+
+</style>
+
+@code {
+
+public bool Mostrar = true;
+public bool MostrarBotao = true;
+public string cor = "#800080";
+public double Valor = 0;
+public decimal Preco = 0;
+
+public string Texto = "Hello World, minha primeira pagina Razor";
+
+
+
+
+
+}
