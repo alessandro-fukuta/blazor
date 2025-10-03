@@ -1,4 +1,4 @@
-# blazor
+# blazor server .NET
 ### arquivos de aulas do blazor server .net
 ### Neste repositório estarão todos os arquivos das aulas.
 ### Não terá projetos prontos. Apenas arquivos.
